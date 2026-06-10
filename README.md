@@ -123,5 +123,7 @@ powershell -ExecutionPolicy Bypass -File scripts\test_http.ps1
 
 ## ライセンス / 注意
 
+本ソフトウェアは [MIT License](LICENSE) のもとで公開されています。
+
 本ソフトウェアは無保証です。自動売買・発注に伴う損失について作者は責任を負いません。
 ```

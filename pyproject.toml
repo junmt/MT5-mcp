@@ -3,6 +3,7 @@ name = "mt5-mcp"
 version = "0.1.0"
 description = "MetaTrader 5 連携 MCP サーバー（マーケットデータ取得・チャート分析・売買発注）"
 requires-python = ">=3.12"
+license = "MIT"
 dependencies = [
     "MetaTrader5>=5.0.45",
     "mcp[cli]>=1.2.0",

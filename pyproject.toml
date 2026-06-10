@@ -1,0 +1,21 @@
+[project]
+name = "mt5-mcp"
+version = "0.1.0"
+description = "MetaTrader 5 連携 MCP サーバー（マーケットデータ取得・チャート分析・売買発注）"
+requires-python = ">=3.12"
+dependencies = [
+    "MetaTrader5>=5.0.45",
+    "mcp[cli]>=1.2.0",
+    "pandas>=2.0",
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+mt5-mcp = "mt5_mcp.server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["mt5_mcp", "mt5_mcp.tools", "mt5_mcp.utils"]
